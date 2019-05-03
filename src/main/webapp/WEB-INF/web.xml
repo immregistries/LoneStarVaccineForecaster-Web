@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<listener>
+		<listener-class>org.tch.fweb.FWebListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>startServlet</servlet-name>
+		<servlet-class>org.tch.fweb.StartServlet</servlet-class>
+		<init-param>
+			<param-name>forecaster.port</param-name>
+			<param-value>6708</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forecaster.software.url</param-name>
+			<param-value>http://tchforecasttester.org/tch-forecaster-prototype.jar</param-value>
+		</init-param>
+		<!-- 
+		<init-param>
+			<param-name>forecaster.software.jarDir</param-name>
+			<param-value></param-value>
+		</init-param>
+		 -->
+		
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+ 	<servlet-mapping>
+        <servlet-name>startServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>	 
+	
+
+</web-app>
