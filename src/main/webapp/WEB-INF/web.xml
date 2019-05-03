@@ -6,19 +6,19 @@
 	<display-name>Archetype Created Web Application</display-name>
 
 	<listener>
-		<listener-class>org.tch.fweb.FWebListener</listener-class>
+		<listener-class>org.immregistries.lonestar.web.FWebListener</listener-class>
 	</listener>
 
 	<servlet>
 		<servlet-name>startServlet</servlet-name>
-		<servlet-class>org.tch.fweb.StartServlet</servlet-class>
+		<servlet-class>org.immregistries.lonestar.web.StartServlet</servlet-class>
 		<init-param>
 			<param-name>forecaster.port</param-name>
 			<param-value>6708</param-value>
 		</init-param>
 		<init-param>
 			<param-name>forecaster.software.url</param-name>
-			<param-value>http://tchforecasttester.org/tch-forecaster-prototype.jar</param-value>
+			<param-value>http://localhost/lonestar/lsv-forecaster.jar</param-value>
 		</init-param>
 		<!-- 
 		<init-param>

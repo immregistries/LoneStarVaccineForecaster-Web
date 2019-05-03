@@ -13,7 +13,7 @@
  *   specific language governing permissions and limitations
  *   under the License.
  */
-package org.tch.fweb;
+package org.immregistries.lonestar.web;
 
 import org.apache.wicket.util.time.Duration;
 import org.eclipse.jetty.http.ssl.SslContextFactory;
