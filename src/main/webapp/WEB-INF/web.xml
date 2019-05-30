@@ -18,7 +18,7 @@
 		</init-param>
 		<init-param>
 			<param-name>forecaster.software.url</param-name>
-			<param-value>http://localhost/lonestar/lsv-forecaster.jar</param-value>
+			<param-value>http://florence.immregistries.org/lonestar/lsv-forecaster.jar</param-value>
 		</init-param>
 		<!-- 
 		<init-param>
